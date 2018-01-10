@@ -12,6 +12,11 @@
 `
     添加到本地仓库
 `
+## git reset -hard 424242fef
+`
+    版本回退
+`
+----
 
 * git clone的时候，所有本地分支默认与远程主机的同名分支，建立追踪关系，也就是说，本地的master分支自动”追踪”origin/master分支。
 * 随后建立的分支即使push后，也无法和远程分支建立追踪关系，提交和拉取需要带上远程分支名
@@ -38,7 +43,7 @@
 ----
 代码merge到master
 1. 分支push后切换到主分支
-2. git merge
+2. git merge dev
 3. git push
 
 
