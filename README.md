@@ -27,19 +27,19 @@
 
 # 工作中，git使用流程
 
-1 创建远程git仓库
-2 克隆代码
-3 创建本地分支 git checkout -b dev
-4 写代码
-5 git add .  git commit -m "" git push origin dev
-6 建立追踪 git branch --set-upstream-to dev origin/dev
-7 每次提交之前下git pull
+1. 创建远程git仓库
+2. 克隆代码
+3. 创建本地分支 git checkout -b dev
+4. 写代码
+5. git add .  git commit -m "" git push origin dev
+6. 建立追踪 git branch --set-upstream-to dev origin/dev
+7. 每次提交之前下git pull
 
 ----
 代码merge到master
-1 分支push后切换到主分支
-2 git merge
-3 git push
+1. 分支push后切换到主分支
+2. git merge
+3. git push
 
 
 
