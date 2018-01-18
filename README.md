@@ -4,17 +4,33 @@
 
     分为工作区、暂存区、本地仓库、远程仓库
 
+## git checkout -- <file name>
+`
+    撤销工作区的修改，回到最后一次add或commit的状态
+`
 ## git add .
 `
     添加到暂存区
+`
+## git reset HEAD <filr name>
+`
+    暂存区的修改撤销掉，重新放回工作区
 `
 ## git commit -m "描述"
 `
     添加到本地仓库
 `
-## git reset -hard 424242fef
+## git checkout -- <file name>
+`
+    让这个文件回到最近一次git commit或git add时的状态。
+`
+## git reset --hard 424242fef
 `
     版本回退
+`
+## git log --pretty=oneline
+`
+    查看提交日志
 `
 ----
 
@@ -26,7 +42,7 @@
 `
 ---
 * 手动建立追踪关系
-`   git branch --set-upstream-to dev origin/dev
+`  // git branch --set-upstream-to dev origin/dev
 `
 这样可以直接使用`git push`和`git pull`
 
